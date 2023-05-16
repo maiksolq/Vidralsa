@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Vidralsa.Pages.ArticuloPage"
+             Title="ArticuloPage">
+    <ContentPage.Content>
+        <Grid ColumnSpacing="10"
+              RowSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Primera columna, primera fila (1/3 del espacio) -->
+            <Grid Grid.Row="0" Grid.Column="0" BackgroundColor="Red">
+                <!-- Contenido de la primera celda -->
+            </Grid>
+
+            <!-- Primera columna, segunda fila (2/3 del espacio) -->
+            <Grid Grid.Row="1" Grid.Column="0" BackgroundColor="Green">
+                <!-- Contenido de la segunda celda -->
+            </Grid>
+
+            <!-- Segunda columna, primera fila (2/3 del espacio) -->
+            <Grid Grid.Row="0" Grid.Column="1" BackgroundColor="Blue">
+                <!-- Contenido de la tercera celda -->
+            </Grid>
+
+            <!-- Segunda columna, segunda fila (1/3 del espacio) -->
+            <Grid Grid.Row="1" Grid.Column="1" BackgroundColor="Yellow">
+                <!-- Contenido de la cuarta celda -->
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
